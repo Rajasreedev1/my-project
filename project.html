@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+
+.container{
+  width: 1700px;
+  height: 100vh;
+  background-image:url(./assets/desert\ image.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.menu{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+   
+}
+nav{
+    flex: 1;
+   text-align: right;
+border: 2px;}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    border-bottom: 2px;
+    border-color: aqua;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #100f0f;
+    font-size:larger;
+
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: rgb(8, 8, 8);
+    font-size: 100px;
+}
+.m1{
+    color: rgb(181, 181, 179);
+    font-size: 11px;
+    font-size: 15px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: rgb(11, 11, 11);
+    font-size: 12px;
+    padding: 12px;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+  width: 200px;
+  height: 330px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+ .card1{
+ background-image: url(./assets/pic-1.png);
+ }
+ .card2{
+ background-image: url(./assets/pic-4.png);
+ }
+ .card3{
+ background-image: url(./assets/pic-3.png);
+ }
+ .card:hover{
+    transform: translateY(-10px);
+ }
+ h5{
+    text-shadow: 0 0 5px #999;
+ }
+ .card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+ }
+    </style>
+    
+</head>
+<body>
+
+      <div class="container">
+      <div class="navbar">
+        <img src="./assets/Desert Webpage Img/logo.png" class="logo">
+
+        <nav>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="https://www.google.com/maps/dir//Sahara+Desert/@23.5008619,8.3905019,4z/data=!4m8!4m7!1m0!1m5!1m1!1s0x13883b64fb267151:0xd6406bdc582d7390!2m2!1d25.66283!2d23.4162027?entry=ttu">REGION</a></li>
+                <li><a href="https://www.britannica.com/place/Sahara-desert-Africa">ABOUT</a></li>
+            </ul>
+        </nav>
+        <img src="./assets/Desert Webpage Img/menu.png" class="menu">
+      </div>  
+
+      <div class="row">
+      <div class="col"><h1>SAHARA..!</h1>
+       <p class="m1">The Sahara is a desert spanning across North Africa. With an area of 9,200,000 square kilometres (3,600,000 sq mi), it is the largest hot desert in the world and the third-largest desert overall, smaller only than the deserts of Antarctica and the northern Arctic. It stretches from the Red Sea in the east and the Mediterranean in the north to the Atlantic Ocean in the west, where the landscape gradually changes from desert to coastal plains. To the south it is bounded by the Sahel, a belt of semi-arid tropical savanna around the Niger River valley and the Sudan region of sub-Saharan Africa!</p>
+        <button type="button"><a href="https://en.wikipedia.org/wiki/Sahara">Explore</a></button>
+    </div>
+
+                <div class="col">
+                <div class="card card1">
+                <h5>Western Desert</h5>
+                <p>Lorem ipsum dolor sit amet, consectertur adipiscing elit.</p>
+
+            </div>
+            <div class="card card2">
+            <h5>Kalahari Desert</h5>
+            <p>Lorem ipsum dolor sit amet, consectertur adipiscing elit.</p>
+            
+            </div>
+            <div class="card card3">
+                <h5>Pyramid of Giza</h5>
+                <p>Lorem ipsum dolor sit amet, consectertur adipiscing elit.</p>
+                
+                 </div>
+
+        </div>
+      </div>
+
+
+
+      </div>
+
+
+
+   
+</body>
+</html>
